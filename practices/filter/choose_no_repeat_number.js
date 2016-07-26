@@ -2,6 +2,7 @@
 
 function choose_no_repeat_number(collection) {
   let array = [];
+
   for(let item of collection) {
     let exist =  array.find((element) => {
       return item === element;
